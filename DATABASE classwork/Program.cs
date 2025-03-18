@@ -7,8 +7,7 @@ class Program
     static void Main()
     {
         // зробив з аналогу с++ , розповiм на парi 
-        Console.OutputEncoding = System.Text.Encoding.GetEncoding("windows-1251"); 
-        Console.InputEncoding = System.Text.Encoding.GetEncoding("windows-1251"); 
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
 
         //-----------------------------------------------------------------------------------------------------------//
         string connectionString = "Server=DESKTOP-OBRUJ32;Database=FruitsAndVegetables;Integrated Security=True;";
